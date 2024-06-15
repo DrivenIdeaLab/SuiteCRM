@@ -1,0 +1,667 @@
+repo_name: DrivenIdeaLab/SuiteCRM
+report_id: a5aee2080093858c06aad82484fb57d2
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:59:54+00:00'
+requested_by: clemente-raposo
+provider: github
+branch: hotfix
+detected_tools_count: 52
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/tests/_data/api_data.sql
+  detection_source: tests/_data/api_data.sql
+  last_updated_by: Gyula Madarasz
+  last_updated_on: 2018-06-12 15:39:09.000000000 Z
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM
+  detection_source: Repo Metadata
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: Codeception
+  description: Elegant and Efficient Testing for PHP
+  website_url: http://codeception.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2301/fQkiPzLo_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/.codecov.yml
+  detection_source: ".codecov.yml"
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2018-06-26 08:43:23.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM
+  detection_source: Repo Metadata
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: jakabadambalazs
+  last_updated_on: 2016-03-24 09:31:40.000000000 Z
+- name: PHPStan
+  description: PHP Static Analysis Tool - discover bugs in your code without running
+    it!
+  website_url: https://github.com/phpstan/phpstan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: jakabadambalazs
+  last_updated_on: 2016-03-24 09:31:40.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.27
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 16:31:32.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Connor Shea
+  last_updated_on: 2019-11-11 20:55:47.000000000 Z
+- name: ElasticHosts Cloud Servers
+  description: Cloud hosting that's easy to use when you need scalable, flexible VPS
+    capacity on demand
+  website_url: https://www.elastichosts.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Cloud Hosting
+  image_url: https://img.stackshare.io/service/21/Br4cEBV6.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: Plamen Vasilev
+  last_updated_on: 2023-03-10 12:14:01.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM
+  detection_source: Repo Metadata
+- name: codeception/codeception
+  description: BDD-style testing framework
+  package_url: https://packagist.org/codeception/codeception
+  version: 4.2.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: consolidation/robo
+  description: Modern task runner
+  package_url: https://packagist.org/consolidation/robo
+  version: 3.0.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: elasticsearch/elasticsearch
+  description: PHP Client for Elasticsearch
+  package_url: https://packagist.org/elasticsearch/elasticsearch
+  version: 7.17.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-09-23 14:07:45.000000000 Z
+- name: ezyang/htmlpurifier
+  description: Standards compliant HTML filter written in PHP
+  package_url: https://packagist.org/ezyang/htmlpurifier
+  version: 4.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: filp/whoops
+  description: Php error handling for cool kids
+  package_url: https://packagist.org/filp/whoops
+  version: 2.14.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: flow/jsonpath
+  description: JSONPath implementation for parsing
+  package_url: https://packagist.org/flow/jsonpath
+  version: '0.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: friendsofphp/php-cs-fixer
+  description: A tool to automatically fix PHP code style
+  package_url: https://packagist.org/friendsofphp/php-cs-fixer
+  version: 2.19.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: google/apiclient
+  description: Client library for Google APIs
+  package_url: https://packagist.org/google/apiclient
+  version: 2.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Clemente Raposo
+  last_updated_on: 2022-11-23 13:10:07.000000000 Z
+- name: google/recaptcha
+  description: Client library for reCAPTCHA
+  package_url: https://packagist.org/google/recaptcha
+  version: 1.2.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Clemente Raposo
+  last_updated_on: 2023-06-01 13:10:44.000000000 Z
+- name: jeroendesloovere/vcard
+  description: This VCard PHP class can generate a vCard with some data
+  package_url: https://packagist.org/jeroendesloovere/vcard
+  version: 1.7.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2022-05-17 10:08:25.000000000 Z
+- name: justinrainbow/json-schema
+  description: A library to validate a json schema
+  package_url: https://packagist.org/justinrainbow/json-schema
+  version: 5.2.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: league/oauth2-client
+  description: OAuth 2.0 Client Library
+  package_url: https://packagist.org/league/oauth2-client
+  version: 2.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Plamen Vasilev
+  last_updated_on: 2023-03-10 12:14:01.000000000 Z
+- name: league/oauth2-server
+  description: A lightweight and powerful OAuth 2.0 authorization and resource server
+    library with support for all the core specification grants
+  package_url: https://packagist.org/league/oauth2-server
+  version: 8.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Plamen Vasilev
+  last_updated_on: 2023-03-10 12:14:01.000000000 Z
+- name: mikey179/vfsStream
+  description: Virtual file system to mock the real file system in unit tests
+  package_url: https://packagist.org/mikey179/vfsStream
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.json
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2019-03-28 17:47:08.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-02-09 10:42:14.000000000 Z
+- name: monolog/monolog
+  description: Sends your logs to files
+  package_url: https://packagist.org/monolog/monolog
+  version: 1.27.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: nesbot/carbon
+  description: An API extension for DateTime that supports 281 different languages
+  package_url: https://packagist.org/nesbot/carbon
+  version: 2.64.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-13 18:29:41.000000000 Z
+- name: onelogin/php-saml
+  description: OneLogin PHP SAML Toolkit
+  package_url: https://packagist.org/onelogin/php-saml
+  version: 3.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: paragonie/random_compat
+  description: PHP 5.x polyfill for random_bytes
+  package_url: https://packagist.org/paragonie/random_compat
+  version: 2.0.21
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2022-05-17 10:08:25.000000000 Z
+- name: phpmailer/phpmailer
+  description: PHPMailer is a full-featured email creation and transfer class for
+    PHP
+  package_url: https://packagist.org/phpmailer/phpmailer
+  version: 6.7.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: phpstan/phpstan
+  description: PHPStan - PHP Static Analysis Tool
+  package_url: https://packagist.org/phpstan/phpstan
+  version: 1.10.14
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.27
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: psr/container
+  description: Common Container Interface
+  package_url: https://packagist.org/psr/container
+  version: 1.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: psr/log
+  description: Common interface for logging libraries
+  package_url: https://packagist.org/psr/log
+  version: 1.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: slim/slim
+  description: Slim is a PHP micro framework that helps you quickly write simple yet
+    powerful web applications and APIs
+  package_url: https://packagist.org/slim/slim
+  version: 3.12.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2019-03-28 17:56:20.000000000 Z
+- name: smarty/smarty
+  description: Smarty - the compiling PHP template engine
+  package_url: https://packagist.org/smarty/smarty
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: soundasleep/html2text
+  description: A PHP script to convert HTML into a plain text format
+  package_url: https://packagist.org/soundasleep/html2text
+  version: 0.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Craig Panton
+  last_updated_on: 2020-01-28 17:06:26.000000000 Z
+- name: symfony/options-resolver
+  description: Provides an improved replacement for the array_replace PHP function
+  package_url: https://packagist.org/symfony/options-resolver
+  version: 3.4.47
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: symfony/validator
+  description: Provides tools to validate values
+  package_url: https://packagist.org/symfony/validator
+  version: 3.4.47
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: symfony/yaml
+  description: Loads and dumps YAML files
+  package_url: https://packagist.org/symfony/yaml
+  version: 5.4.16
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-06-11 19:29:42.000000000 Z
+- name: tecnickcom/tcpdf
+  description: TCPDF is a PHP class for generating PDF documents and barcodes
+  package_url: https://packagist.org/tecnickcom/tcpdf
+  version: 6.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2021-09-23 14:07:45.000000000 Z
+- name: tedivm/jshrink
+  description: Javascript Minifier built in PHP
+  package_url: https://packagist.org/tedivm/jshrink
+  version: 1.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dillon-Brown
+  last_updated_on: 2019-05-17 07:34:47.000000000 Z
+- name: tinymce/tinymce
+  description: Web based JavaScript HTML WYSIWYG editor control
+  package_url: https://packagist.org/tinymce/tinymce
+  version: 5.10.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2021-12-17 11:46:17.000000000 Z
+- name: vlucas/phpdotenv
+  description: Loads environment variables from `.env` to `getenv
+  package_url: https://packagist.org/vlucas/phpdotenv
+  version: 3.6.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2023-05-01 16:09:09.000000000 Z
+- name: voku/anti-xss
+  description: Anti xss-library
+  package_url: https://packagist.org/voku/anti-xss
+  version: 4.1.39
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Clemente Raposo
+  last_updated_on: 2022-01-10 12:09:48.000000000 Z
+- name: wikimedia/composer-merge-plugin
+  description: Composer plugin to merge multiple composer.json files
+  package_url: https://packagist.org/wikimedia/composer-merge-plugin
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/SuiteCRM/blob/hotfix/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matt Lorimer
+  last_updated_on: 2022-05-17 10:08:25.000000000 Z
